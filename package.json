@@ -1,6 +1,6 @@
 {
   "name": "@jinro-dungeon/redux",
-  "version": "4.1.0-akashic-patch.1",
+  "version": "4.1.0-akashic-patch.2",
   "description": "redux fork for Akashic Engine apps",
   "license": "MIT",
   "homepage": "http://redux.js.org",
