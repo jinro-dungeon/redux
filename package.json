@@ -1,10 +1,13 @@
 {
-  "name": "redux",
-  "version": "4.1.0",
-  "description": "Predictable state container for JavaScript apps",
+  "name": "@jinro-dungeon/redux",
+  "version": "4.1.0-akashic-patch.1",
+  "description": "redux fork for Akashic Engine apps",
   "license": "MIT",
   "homepage": "http://redux.js.org",
-  "repository": "github:reduxjs/redux",
+  "repository": "github:jinro-dungeon/redux",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "bugs": "https://github.com/reduxjs/redux/issues",
   "keywords": [
     "redux",
