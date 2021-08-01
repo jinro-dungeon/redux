@@ -6,7 +6,12 @@
  */
 
 const randomString = () =>
-  Math.random().toString(36).substring(7).split('').join('.')
+  // akashicはMath.random()を使えないので固定値にする
+  /* Math.random()*/ (0.8976070266715985)
+    .toString(36)
+    .substring(7)
+    .split('')
+    .join('.')
 
 const ActionTypes = {
   INIT: `@@redux/INIT${randomString()}`,
