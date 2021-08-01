@@ -1,7 +1,7 @@
 export function kindOf(val) {
   let typeOfVal = typeof val
 
-  if (process.env.NODE_ENV !== 'production') {
+  if (typeof process === 'object' && process.env.NODE_ENV !== 'production') {
     // Inlined / shortened version of `kindOf` from https://github.com/jonschlinkert/kind-of
     function miniKindOf(val) {
       if (val === void 0) return 'undefined'
